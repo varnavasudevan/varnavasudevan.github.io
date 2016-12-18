@@ -129,7 +129,7 @@ body{
 .topbar-text {
 	display: inline;
 	color: #40485a;
-	font-size: 16;
+	font-size: 16px;
 	letter-spacing:  3px;
 	font-weight:300;
 	padding-left:50px;
@@ -215,12 +215,52 @@ position: relative;
 	background: url(../img/loading.gif) center no-repeat #fff;
 }
 
-@media(max-width: 1024px){
+
+
+
+@media(max-width: 414px){
+	#textbox{
+	/* display: table; */
+	margin: 0 auto;
+	position: relative;
+	top: 15%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	left: 68%;
+}
+
+#textbox2{
+	/* display: table; */
+	margin: 0 auto;
+	position: relative;
+	top: 15%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	left: 68%;
+}
+
+.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 18px;
+	letter-spacing:  3px;
+	font-weight:300;
+	/* padding-left:50px; */
+	line-height: 10px;
+	text-transform: uppercase;
+    padding-right: 35px;
+}
+}
+
+
+@media(max-width:1024px) and (min-width:415px){
 
 	.topbar-text {
 	display: inline;
 	color: #40485a;
-	font-size: 16;
+	font-size: 16px;
 	letter-spacing:  3px;
 	font-weight:300;
 	padding-left: 30px;

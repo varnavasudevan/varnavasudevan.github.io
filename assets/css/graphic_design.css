@@ -131,7 +131,21 @@ body{
 
 
 
-@media(max-width: 1024px){
+@media(max-width: 414px){
+	
+	#textbox{
+	/* display: table; */
+	margin: 0 auto;
+	position: relative;
+	top: 20%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	left: 50%;
+}
+}
+
+@media(max-width:1024px) and (min-width:415px){
 
 	.topbar-text {
 	display: inline;

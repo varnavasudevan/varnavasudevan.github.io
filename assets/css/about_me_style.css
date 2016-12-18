@@ -208,13 +208,64 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	.topbar-text {
 	display: inline;
 	color: #40485a;
-	font-size: 16;
+	font-size: 18px;
 	letter-spacing:  3px;
 	font-weight:300;
-	padding-left: 30px;
-	line-height: 40px;
+	/* padding-left:50px; */
+	line-height: 10px;
 	text-transform: uppercase;
+    padding-right: 35px;
 }
+
+.button{
+	border-color: #40485a;
+	border-radius: 2px;
+	border: 1px solid;
+	width: 150px;
+	height: 40px;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:#40485a;
+	z-index: 80;
+	line-height: 2.5;
+	margin-top: 550px;
+	margin-left: 49%;
+	cursor:pointer;
+	background-color: white;
+}
+
+.icons{
+	margin-left: 23%;
+
+	}
+
+
+#textbox{
+	margin: 0 auto;
+	position: relative;
+	width: 325px;
+	top: 90px;
+	left: 5px;
+}
+
+.cover_img_scaled{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 85%;
+	height: 90%;
+	object-fit: cover;
+	z-index: 20;
+	opacity: .65;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+	transition:1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
+	cursor:pointer;
+}
+
 }
 
 @media(max-width:1024px) and (min-width:415px){
@@ -222,7 +273,7 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	.topbar-text {
 	display: inline;
 	color: #40485a;
-	font-size: 16;
+	font-size: 16px;
 	letter-spacing:  3px;
 	font-weight:300;
 	padding-left: 30px;
