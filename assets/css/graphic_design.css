@@ -131,7 +131,7 @@ body{
 
 
 
-@media(max-width: 414px){
+@media(max-width: 500px){
 	
 	#textbox{
 	/* display: table; */
@@ -145,7 +145,7 @@ body{
 }
 }
 
-@media(max-width:1024px) and (min-width:415px){
+@media(max-width:1024px) and (min-width:500px){
 
 	.topbar-text {
 	display: inline;
