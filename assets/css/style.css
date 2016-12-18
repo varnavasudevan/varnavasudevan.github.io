@@ -1,0 +1,165 @@
+body{
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Sacramento', cursive;
+	font-family: 'Karla', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#container{
+	text-align: center;
+	/* margin-left: 10%; */
+	width: 100%;
+	height: 100%;
+	z-index: 40;
+	position: absolute;
+}
+
+#textbox{
+	/* display: table; */
+	margin: 0 auto;
+	position: relative;
+	top: 43%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	/* left: 45%; */
+}
+.myname{
+	font-family: 'Fredericka the Great';
+	font-size: 55px;
+	z-index: 40;
+	color:#40485a;
+}
+
+.subtitle{
+	font-family: 'Karla';
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 3px;
+	/* text-align: left; */
+	/* margin-left: 10px; */
+	/* margin-top: 40%; */
+	z-index: 30;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color:#40485a;
+}
+
+.cover_img_scaled{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	opacity: .75;	
+		-webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+     -moz-filter: grayscale(30%);
+}
+
+
+
+#topbar {
+	background-color: white;
+	/*border:solid;
+	border-width:1px;
+	border-color:#eeeeee;*/
+	position:fixed;
+	width:100%;
+	height: 80px;
+	z-index:60;
+	
+}
+
+
+.logo_scaled{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 5%;
+	height:65px;
+}
+
+.logo_scaled:hover{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+#topbar-items{
+	position:absolute;
+	margin-left:60%;
+	top:35px;
+	z-index: 100;
+	
+}
+.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left:50px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+.topbar-text:hover{
+	opacity:0.6;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/loading.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+
+
+
+@media(max-width: 414px){
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+}
+
+@media(max-width:1024px) and (min-width:415px){
+
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+}
+
+

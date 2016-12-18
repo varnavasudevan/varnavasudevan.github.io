@@ -1,0 +1,145 @@
+body{
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Sacramento', cursive;
+	font-family: 'Karla', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#title_container{
+	text-align: center;
+	/* margin-left: 10%; */
+	width: 100%;
+	height: 100%;
+	z-index: 40;
+	position: absolute;
+}
+
+#graphic_container{
+	z-index:120;
+	position:relative;
+	top:300px;
+	}
+
+#textbox{
+	/* display: table; */
+	margin: 0 auto;
+	position: relative;
+	top: 20%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	/* left: 45%; */
+}
+
+
+
+.myname{
+	font-family: 'Fredericka the Great';
+	font-size: 55px;
+	z-index: 40;
+	color:#40485a;
+}
+
+
+.subtitle{
+	font-family: 'Karla';
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 3px;
+	/* text-align: left; */
+	/* margin-left: 10px; */
+	/* margin-top: 40%; */
+	z-index: 30;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color:#40485a;
+}
+
+
+
+#topbar {
+	background-color: white;
+	/*border:solid;
+	border-width:1px;
+	border-color:#eeeeee;*/
+	position:fixed;
+	width:100%;
+	height: 80px;
+	z-index: 200;
+	-webkit-box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
+	box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
+}
+
+
+.logo_scaled{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 5%;
+	height:65px;
+}
+
+.logo_scaled:hover{
+	opacity:0.6;
+	cursor:pointer;
+}
+
+#topbar-items{
+	position:absolute;
+	margin-left:60%;
+	top:35px;
+	z-index: 100;
+	
+}
+.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left:50px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+.topbar-text:hover{
+	opacity:0.6;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+
+.graphic_img_scaled{
+	/* display: inline-block; */
+	/* margin-top: 300px; */
+	width: 700px;
+	display: table;
+	margin: 0 auto;
+	/* width: 300px; */
+	object-fit: cover;
+	/* -webkit-filter: grayscale(100%); */ /* Safari 6.0 - 9.0 */
+	/* filter: grayscale(100%); */
+	/* opacity:.6; */
+	/* transition:1.25s; */
+	padding: 15px;
+	/* cursor:pointer; */
+}
+
+
+
+@media(max-width: 1024px){
+
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+}
