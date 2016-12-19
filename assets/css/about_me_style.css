@@ -220,7 +220,7 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	color:#40485a;
 	z-index: 80;
 	line-height: 2.5;
-	margin-top: 550px;
+	margin-top: 150px;
 	margin-left: 49%;
 	cursor:pointer;
 	background-color: white;
@@ -242,9 +242,9 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 
 .cover_img_scaled{
 	display: inline-block;
-	margin-left: 15px;
-	margin-top: 85%;
-	height: 90%;
+	margin-left: 50px;
+	margin-top: 500px;
+	height: 500px;
 	object-fit: cover;
 	z-index: 20;
 	opacity: .65;
@@ -298,6 +298,7 @@ padding-right: 40px;
 }
 
 }
+
 
 
 @media(max-width:1024px) and (min-width:500px){
