@@ -281,7 +281,7 @@ padding-right: 40px;
 
 .logo_scaled {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 5%;
     height: 65px;
 }
@@ -336,9 +336,16 @@ padding-right: 40px;
 	margin-left: 35%;
 	width: 250px;
 	}
+
+	#topbar-items {
+    position: absolute;
+    margin-left: 50%;
+    top: 35px;
+    z-index: 100;
+}
 }
 
-@media (max-width:1440px) and (min-width:1025px) {
+@media (max-width:1440px) and (min-width:1024px) {
 
 .button{
 	border-color: #40485a;

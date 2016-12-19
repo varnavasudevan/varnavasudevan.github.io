@@ -133,19 +133,54 @@ body{
 }
 
 
-
+video{
+	position: absolute; z-index:0; top: 0%;
+}
 
 @media(max-width: 500px){
-	.topbar-text {
-	display: inline;
-	color: #40485a;
-	font-size: 16;
-	letter-spacing:  3px;
-	font-weight:300;
-	padding-left: 30px;
-	line-height: 40px;
-	text-transform: uppercase;
+
+
+	video{
+	top: 15%;
 }
+
+.topbar-text {
+	
+color: #40485a;
+	
+font-size: 14px;
+	
+letter-spacing:  3px;
+	
+font-weight:300;
+	
+padding-left:75px;
+	
+line-height: 30px;
+	
+text-transform: uppercase;
+	
+padding-right: 40px;
+}
+
+#topbar{
+	height: 100px;
+}
+
+.logo_scaled {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 5%;
+    height: 65px;
+}
+
+#topbar-items{
+	position:absolute;
+	margin-left: 45%;
+	top: 5px;
+	z-index: 100;
+}
+
 }
 
 @media(max-width:1024px) and (min-width:500px){
@@ -160,6 +195,14 @@ body{
 	line-height: 10px;
 	text-transform: uppercase;
 }
+
+#topbar-items {
+    position: absolute;
+    margin-left: 50%;
+    top: 35px;
+    z-index: 100;
 }
+}
+
 
 
