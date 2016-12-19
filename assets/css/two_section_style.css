@@ -218,16 +218,26 @@ position: relative;
 
 
 
-@media(max-width: 414px){
+@media(max-width: 500px){
 	#textbox{
 	/* display: table; */
 	margin: 0 auto;
 	position: relative;
-	top: 20%;
+	top: 25%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	left: 68%;
+}
+
+#grid_container {
+    width: 950px;
+    /* height: 80%; */
+    top: 37%;
+    z-index: 120;
+    /* display: table; */
+    margin: 0 auto;
+    position: relative;
 }
 
 #textbox2{
@@ -244,22 +254,37 @@ position: relative;
 .topbar-text {
 	
 	color: #40485a;
-	font-size: 18px;
-	letter-spacing:  3px;
+	font-size: 35px;
+	letter-spacing:  7px;
 	font-weight:300;
 	padding-left:75px; 
-	line-height: 50px;
+	line-height: 75px;
 	text-transform: uppercase;
     padding-right: 35px;
 }
 
 #topbar{
-	height:200px;
+	height:250px;
 }
+
+.logo_scaled {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5%;
+    height: 150px;
+}
+
+#topbar-items{
+	
+	margin-left: 55%;
+	top: 5px;
+	z-index: 100;
+}
+
 }
 
 
-@media(max-width:1024px) and (min-width:415px){
+@media(max-width:1024px) and (min-width:500px){
 
 	.topbar-text {
 	display: inline;
