@@ -223,7 +223,7 @@ position: relative;
 	/* display: table; */
 	margin: 0 auto;
 	position: relative;
-	top: 15%;
+	top: 20%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -242,15 +242,19 @@ position: relative;
 }
 
 .topbar-text {
-	display: inline;
+	
 	color: #40485a;
 	font-size: 18px;
 	letter-spacing:  3px;
 	font-weight:300;
-	/* padding-left:50px; */
-	line-height: 10px;
+	padding-left:75px; 
+	line-height: 50px;
 	text-transform: uppercase;
     padding-right: 35px;
+}
+
+#topbar{
+	height:200px;
 }
 }
 
