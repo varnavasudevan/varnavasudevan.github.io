@@ -284,7 +284,7 @@ position: relative;
 }
 
 
-@media(max-width:1024px) and (min-width:500px){
+@media(max-width:800px) and (min-width:500px){
 
 	.topbar-text {
 	display: inline;
@@ -304,5 +304,28 @@ position: relative;
 #textbox2 {
     
     margin-left: 25%;
+}
+
+
+@media(max-width:1024px) and (min-width:800px){
+
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16px;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+#textbox {
+    
+    margin-left: 0%;
+}
+
+#textbox2 {
+    
+    margin-left: 0%;
 }
 }
