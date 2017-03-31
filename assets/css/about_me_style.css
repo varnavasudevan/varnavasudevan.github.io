@@ -19,7 +19,7 @@ body{
 	margin: 0 auto;
 	position: relative;
 	width: 325px;
-	top: 35%;
+	top: 25%;
 	left: 10%;
 }
 .myname{
@@ -64,7 +64,7 @@ body{
 	display: inline-block;
 	margin-left: 60%;
 	margin-top: 10%;
-	height: 90%;
+	height: 86%;
 	object-fit: cover;
 	z-index: 20;
 	opacity: .65;
@@ -73,7 +73,6 @@ body{
 	transition:1.25s;
 	-webkit-transition:1.25s;
 	-moz-transition:1.25s;
-	
 }
 
 
@@ -327,8 +326,8 @@ padding-right: 40px;
 	color:#40485a;
 	z-index: 80;
 	line-height: 2.5;
-	margin-top: 300px;
-	margin-left: 45%;
+	margin-top: 200px;
+	margin-left: 40%;
 	cursor:pointer;
 	background-color: transparent;
 }
@@ -361,8 +360,8 @@ padding-right: 40px;
 	color:#40485a;
 	z-index: 80;
 	line-height: 2.5;
-	margin-top: 350px;
-	margin-left: 49%;
+	margin-top: 200px;
+	margin-left: 45%;
 	cursor:pointer;
 	background-color: transparent;
 }
