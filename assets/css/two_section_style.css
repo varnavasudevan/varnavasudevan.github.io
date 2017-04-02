@@ -121,10 +121,9 @@ body{
 
 #topbar-items{
 	position:absolute;
-	margin-left:60%;
+	margin-left: 50%;
 	top:35px;
 	z-index: 100;
-	
 }
 .topbar-text {
 	display: inline;
