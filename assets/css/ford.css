@@ -56,7 +56,20 @@ body{
 	color:#40485a;
 }
 
-
+.subtitle2{
+	font-family: 'Karla';
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: .2px;
+	/* text-align: left; */
+	/* margin-left: 10px; */
+	/* margin-top: 40%; */
+	z-index: 30;
+	width: 650px;
+	padding-bottom: 5px;
+	padding-top:200px;
+	color:#40485a;
+}
 
 #topbar {
 	background-color: white;
@@ -125,7 +138,7 @@ body{
 	/* filter: grayscale(100%); */
 	/* opacity:.6; */
 	/* transition:1.25s; */ 
-	padding: 45px;
+	
 	/* cursor:pointer; */
 }
 
