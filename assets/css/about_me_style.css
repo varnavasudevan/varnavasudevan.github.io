@@ -18,7 +18,7 @@ body{
 #textbox{
 	margin: 0 auto;
 	position: relative;
-	width: 325px;
+	width: 450px;
 	top: 25%;
 	left: 10%;
 }
@@ -50,7 +50,7 @@ body{
 	font-weight: 300;
 	font-size: 16px;
 	letter-spacing: 0.25px;
-	/* text-align: left; */
+	text-align: justify; */
 	margin-left: 10px;
 	margin-top: 40%;
 	z-index: 30;
