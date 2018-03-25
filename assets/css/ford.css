@@ -15,6 +15,33 @@ body{
 	position: absolute;
 }
 
+:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight: bold;
+  color:            #FF8645;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight: bold;
+  color:            #FF8645;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  color:            #7C8786;
+  font-weight: bold;
+
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  color: #7C8786;
+  font-weight: bold;
+  
+  } 
+  
 #graphic_container{
 	z-index:120;
 	position:relative;
