@@ -6,17 +6,39 @@ body{
 	padding:0;
 }
 
+
+.tdx_green{
+	color: #76bf66;
+}
+
+.lyft_pink{
+	color: #ff00bf;
+}
+
+.ford_blue{
+	color: #1351d8;
+}
+
+.orange{
+	color:    #FF8645;
+}
+
+.black{
+	color: #020202
+}
+
+
+
 a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
   font-weight: bold;
-  color:            #FF8645;
   } 
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
   font-weight: bold;
-  color:            #FF8645;
+  
   } 
 a:hover   {
   /* Applies to links under the pointer */
@@ -32,6 +54,8 @@ a:active  {
   font-weight: bold;
   
   } 
+
+
 
 #container{
 	text-align: center;

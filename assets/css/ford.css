@@ -15,17 +15,25 @@ body{
 	position: absolute;
 }
 
-:link    {
+.lyft_pink{
+	color: #ff00bf;
+}
+
+.ford_blue{
+	color: #1351d8;
+}
+
+a:link    {
   /* Applies to all unvisited links */
   text-decoration:  none;
   font-weight: bold;
-  color:            #FF8645;
+ 
   } 
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
   font-weight: bold;
-  color:            #FF8645;
+ 
   } 
 a:hover   {
   /* Applies to links under the pointer */
