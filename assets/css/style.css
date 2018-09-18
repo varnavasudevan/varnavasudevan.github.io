@@ -136,7 +136,7 @@ body{
 video{
 	position: absolute; 
 	z-index:0; 
-	top: 20%; 
+	top: 25s%; 
 	margin: 0 auto;
 	left: 20%;
 }
