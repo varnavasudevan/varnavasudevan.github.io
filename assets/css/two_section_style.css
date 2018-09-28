@@ -125,7 +125,7 @@ body{
 	top:35px;
 	z-index: 100;
 }
-.topbar-text {
+.topbar-text-projects {
 	display: inline;
 	color: #40485a;
 	font-size: 16px;
@@ -136,13 +136,48 @@ body{
 	text-transform: uppercase;
 }
 
-.topbar-text:hover{
+.topbar-text-tinkering {
+	display: inline;
+	color: #40485a;
+	font-size: 16px;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left:50px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+.topbar-text-projects:hover{
 	opacity:0.6;
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 }
 
+.topbar-text-tinkering:hover{
+	opacity:0.6;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.topbar-text-about {
+	display: inline;
+	color: #40485a;
+	font-size: 16px;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left:50px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+.topbar-text-about:hover{
+	opacity:0.6;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
 #grid_container{
 	
 width: 950px;

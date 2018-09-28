@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$(".se-pre-con").fadeOut(600);;
 	});
 	
-$("#topbar-text-tinkering").click(function(){
+$(".topbar-text-tinkering").click(function(){
   
   $('html, body').animate({scrollTop:$('#tinkeringpage').offset().top}, 'slow');
 
@@ -12,7 +12,7 @@ $("#topbar-text-tinkering").click(function(){
 
     });
 
-$("#topbar-text-projects").click(function(){
+$(".topbar-text-projects").click(function(){
 
   $('html, body').animate({scrollTop:$('#projectspage').offset().top}, 'slow');
 
