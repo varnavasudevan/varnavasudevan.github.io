@@ -16,7 +16,7 @@ body{
 
 .section1{
 	width:100%;
-	height: 500px;
+	height: 600px;
 	position: relative;
 }
 
@@ -161,7 +161,7 @@ a:active  {
 .arrowimage{
 	display: inline-block;
 	margin-left: 47%;
-	margin-top: 10%;
+	margin-top: 5%;
 	height: 65px;
 	object-fit: cover;
 	z-index: 20;
@@ -315,7 +315,7 @@ a:active  {
 video{
 	position: absolute; 
 	z-index:0; 
-	top: 20%; 
+	top: 15%; 
 	margin: 0 auto;
 	left: 26%;
 }
