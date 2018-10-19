@@ -14,11 +14,28 @@ body{
 	position: relative;
 }
 
+.section1{
+	width:100%;
+	height: 500px;
+	position: relative;
+}
+
+.section2{
+	width:100%;
+	height: 250px;
+	position: relative;
+}
+
+
 #videopage{
 	background-color: white;
 }
 
 #aboutdown{
+	background-color: white;
+}
+
+#arrowdown{
 	background-color: white;
 }
 
@@ -85,7 +102,7 @@ a:active  {
 	margin: 0 auto;
 	position: relative;
 	width: 500px;
-	top: 25%;
+	top: 15%;
 	left: 10%;
 }
 .myname{
@@ -129,11 +146,11 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 60%;
-	margin-top: 10%;
-	height: 86%;
+	margin-top: 15%;
+	height: 65%;
 	object-fit: cover;
 	z-index: 20;
-	opacity: .65;
+	opacity: .75;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	transition:1.25s;
@@ -141,6 +158,22 @@ a:active  {
 	-moz-transition:1.25s;
 }
 
+.arrowimage{
+	display: inline-block;
+	margin-left: 47%;
+	margin-top: 10%;
+	height: 65px;
+	object-fit: cover;
+	z-index: 20;
+	opacity: .2;
+}
+
+.arrowimage:hover{
+	opacity:.8;
+	transition:1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
+}
 
 .cover_img_hover_jquery{
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -284,7 +317,7 @@ video{
 	z-index:0; 
 	top: 20%; 
 	margin: 0 auto;
-	left: 20%;
+	left: 26%;
 }
 
 
@@ -331,8 +364,8 @@ video{
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 50px;
-	margin-top: 700px;
-	height: 500px;
+	margin-top: 800px;
+	height: 400px;
 	object-fit: cover;
 	z-index: 20;
 	opacity: .65;

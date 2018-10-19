@@ -9,7 +9,7 @@ $("#container").hover(function(){
 
     });
 
-$("#arrow-down").click(function(){
+$(".arrowimage").click(function(){
   
   $('html, body').animate({scrollTop:$('#aboutdown').offset().top}, 'slow');
 
