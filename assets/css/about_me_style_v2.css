@@ -156,13 +156,27 @@ a:active  {
 	transition:1.25s;
 	-webkit-transition:1.25s;
 	-moz-transition:1.25s; */
+	transition:1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
+}
+
+.cover_img_scaled:hover{
+	 -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+
+    transition: 1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
 }
 
 .arrowimage{
 	display: inline-block;
-	margin-left: 47%;
-	margin-top: 5%;
-	height: 65px;
+	margin-left: 46%;
+	margin-top: 3%;
+	height: 100px;
 	object-fit: cover;
 	z-index: 20;
 	opacity: .2;
@@ -179,10 +193,12 @@ a:active  {
 }
 
 
+
 .cover_img_hover_jquery{
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     opacity:.8;
+
 }
 
 
@@ -214,7 +230,7 @@ a:active  {
 
 .logo_scaled{
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 9px;
 	margin-left: 5%;
 	height:65px;
 }
@@ -239,6 +255,7 @@ a:active  {
 	padding-left:50px;
 	line-height: 10px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .topbar-text:hover{
@@ -246,6 +263,8 @@ a:active  {
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
+
+
 }
 
 
@@ -326,6 +345,72 @@ video{
 
 
 
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
 
 @media(max-width: 500px){
 	
