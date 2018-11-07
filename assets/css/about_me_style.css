@@ -87,11 +87,13 @@ a:active  {
 	top: 25%;
 	left: 10%;
 }
+
 .myname{
-	font-family: 'Fredericka the Great';
+	font-family: 'Poppins';
+	font-weight: 700;
 	font-size: 45px;
 	z-index: 40;
-	color:#40485a;
+	color:#4b5469;
 }
 
 

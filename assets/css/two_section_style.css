@@ -2,6 +2,7 @@ body{
 	font-family: 'Fredericka the Great', cursive;
 	font-family: 'Sacramento', cursive;
 	font-family: 'Karla', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin:0;
 	padding:0;
 }
@@ -61,15 +62,16 @@ body{
 
 
 .myname{
-	font-family: 'Fredericka the Great';
-	font-size: 55px;
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 45px;
 	z-index: 40;
-	color:#40485a;
+	color:#4b5469;
 }
 
 
 .subtitle{
-	font-family: 'Karla';
+	font-family: 'Poppins';
 	font-weight: 300;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -103,6 +105,7 @@ body{
 	-webkit-box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	-moz-box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
+
 }
 
 
@@ -141,6 +144,7 @@ body{
 	line-height: 10px;
 	text-transform: uppercase;
 	font-weight: bold;
+	
 }
 
 .topbar-text-tinkering {
