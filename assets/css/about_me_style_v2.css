@@ -10,19 +10,19 @@ body{
 
 .section{
 	width:100%;
-	height: 700px;
+	height: 600px;
 	position: relative;
 }
 
 .section1{
 	width:100%;
-	height: 600px;
+	height: 550px;
 	position: relative;
 }
 
 .section2{
 	width:100%;
-	height: 250px;
+	height: 150px;
 	position: relative;
 }
 
@@ -131,7 +131,7 @@ a:active  {
 .subtitle2{
 	font-family: 'Karla';
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 0.25px;
 	text-align: justify; */
 	margin-left: 10px;
@@ -146,7 +146,7 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 60%;
-	margin-top: 15%;
+	margin-top: 14%;
 	height: 65%;
 	object-fit: cover;
 	z-index: 20;
@@ -172,7 +172,7 @@ a:active  {
 }
 
 .arrowimage:hover{
-	opacity:.8;
+	opacity:.6;
 	transition:1.25s;
 	-webkit-transition:1.25s;
 	-moz-transition:1.25s;
@@ -319,7 +319,7 @@ a:active  {
 video{
 	position: absolute; 
 	z-index:0; 
-	top: 15%; 
+	top: 20%; 
 	margin: 0 auto;
 	left: 26%;
 }
