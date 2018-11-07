@@ -148,7 +148,7 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 60%;
-	margin-top: 14%;
+	margin-top: 15%;
 	height: 65%;
 	object-fit: cover;
 	z-index: 20;
