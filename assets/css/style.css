@@ -80,8 +80,15 @@ body{
 }
 
 .logo_scaled:hover{
-	opacity:0.6;
 	cursor:pointer;
+ -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+
+    transition: 1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
 }
 
 #topbar-items{
