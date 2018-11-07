@@ -2,6 +2,7 @@ body{
 	font-family: 'Fredericka the Great', cursive;
 	font-family: 'Sacramento', cursive;
 	font-family: 'Karla', sans-serif;
+	
 	margin:0;
 	padding:0;
 }
@@ -170,6 +171,8 @@ a:active  {
     transition: 1.25s;
 	-webkit-transition:1.25s;
 	-moz-transition:1.25s;
+
+
 }
 
 .arrowimage{
