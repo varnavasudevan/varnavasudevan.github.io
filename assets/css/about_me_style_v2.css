@@ -28,6 +28,8 @@ body{
 }
 
 
+
+
 #videopage{
 	background-color: white;
 }
@@ -106,6 +108,16 @@ a:active  {
 	top: 15%;
 	left: 10%;
 }
+
+#textbox2{
+	margin: 0 auto;
+	position: relative;
+	width: 500px;
+	top: 70px;
+	left: 36%;
+}
+
+
 .myname{
 	font-family: 'Poppins';
 	font-weight: 700;
