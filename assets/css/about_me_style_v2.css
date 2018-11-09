@@ -515,7 +515,31 @@ line-height: 30px;
 text-transform: uppercase;
 	
 padding-right: 40px;
+font-weight: bold;
 }
+
+.topbar-text-about {
+	
+color: #40485a;
+	
+font-size: 14px;
+	
+letter-spacing:  3px;
+	
+font-weight:300;
+	
+padding-left:75px;
+	
+line-height: 30px;
+	
+text-transform: uppercase;
+	
+padding-right: 40px;
+font-weight: bold;
+}
+
+
+
 
 #topbar{
 	height: 100px;
@@ -554,6 +578,19 @@ padding-right: 40px;
 	padding-left: 30px;
 	line-height: 10px;
 	text-transform: uppercase;
+	font-weight:bold;
+}
+
+.topbar-text-about {
+	display: inline;
+	color: #40485a;
+	font-size: 16px;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+	font-weight:bold;
 }
 
 
