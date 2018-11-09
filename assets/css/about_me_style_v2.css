@@ -159,8 +159,9 @@ a:active  {
 
 .cover_img_scaled{
 	display: inline-block;
-	margin-left: 60%;
-	margin-top: 15%;
+
+	margin-left: 110%;
+	margin-top: -95%;
 	height: 65%;
 	object-fit: cover;
 	z-index: 20;
@@ -461,6 +462,7 @@ video{
 	
 	video{
 	top: 15%;
+}
 
 .button{
 	border-color: #40485a;
@@ -495,21 +497,7 @@ video{
 	left: 5px;
 }
 
-.cover_img_scaled{
-	display: inline-block;
-	margin-left: 50px;
-	margin-top: 800px;
-	height: 400px;
-	object-fit: cover;
-	z-index: 20;
-	opacity: .65;
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(100%);
-	transition:1.25s;
-	-webkit-transition:1.25s;
-	-moz-transition:1.25s;
-	cursor:pointer;
-}
+
 
 .topbar-text {
 	
@@ -569,29 +557,7 @@ padding-right: 40px;
 	text-transform: uppercase;
 }
 
-	.button{
-	border-color: #40485a;
-	border-radius: 2px;
-	border: 1px solid;
-	width: 150px;
-	height: 40px;
-	font-family: 'Karla';
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 16px;
-	color:#40485a;
-	z-index: 80;
-	line-height: 2.5;
-	margin-top: 200px;
-	margin-left: 40%;
-	cursor:pointer;
-	background-color: transparent;
-}
 
-.icons{
-	margin-left: 35%;
-	width: 250px;
-	}
 
 	#topbar-items {
     position: absolute;
@@ -603,22 +569,7 @@ padding-right: 40px;
 
 @media (max-width:1440px) and (min-width:1024px) {
 
-.button{
-	border-color: #40485a;
-	border-radius: 2px;
-	border: 1px solid;
-	width: 150px;
-	height: 40px;
-	font-family: 'Karla';
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 16px;
-	color:#40485a;
-	z-index: 80;
-	line-height: 2.5;
-	margin-top: 200px;
-	margin-left: 45%;
-	cursor:pointer;
-	background-color: transparent;
-}
+
+
+
 	}
