@@ -160,7 +160,7 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 110%;
-	margin-top: -95%;
+	margin-top: -90%;
 	height: 65%;
 	object-fit: cover;
 	z-index: 20;
