@@ -203,21 +203,35 @@ padding-right: 40px;
 	.topbar-text {
 	display: inline;
 	color: #40485a;
-	font-size: 16;
+	font-size: 16px;
 	letter-spacing:  3px;
 	font-weight:300;
 	padding-left: 30px;
 	line-height: 10px;
 	text-transform: uppercase;
+	font-weight:bold;
 }
 
-#topbar-items {
+.topbar-text-about {
+	display: inline;
+	color: #40485a;
+	font-size: 16px;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+
+
+	#topbar-items {
     position: absolute;
     margin-left: 50%;
     top: 35px;
     z-index: 100;
 }
 }
-
 
 

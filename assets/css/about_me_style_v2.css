@@ -594,18 +594,11 @@ font-weight: bold;
 }
 
 
-
 	#topbar-items {
     position: absolute;
     margin-left: 50%;
     top: 35px;
     z-index: 100;
 }
+
 }
-
-@media (max-width:1440px) and (min-width:1024px) {
-
-
-
-
-	}
