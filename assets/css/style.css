@@ -7,6 +7,7 @@ body{
 	padding:0;
 }
 
+
 #container{
 	text-align: center;
 	/* margin-left: 10%; */
@@ -26,6 +27,19 @@ body{
 	-moz-transform: translateY(-50%);
 	/* left: 45%; */
 }
+
+#textbox-footer{
+	/* display: table; */
+	margin: 10px;
+	position: relative;
+	top: 80%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	/* left: 45%; */
+}
+
+
 .myname{
 	font-family: 'Fredericka the Great';
 	font-size: 55px;
