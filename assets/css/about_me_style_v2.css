@@ -160,11 +160,11 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 110%;
-	margin-top: -90%;
+	margin-top: -95%;
 	height: 55%;
 	object-fit: cover;
 	z-index: 20;
-	opacity: .80;
+	opacity: .85;
 	/*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	/*filter: grayscale(100%);
 	transition:1.25s;
