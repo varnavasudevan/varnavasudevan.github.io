@@ -104,7 +104,7 @@ a:active  {
 #textbox{
 	margin: 0 auto;
 	position: relative;
-	width: 500px;
+	width: 400px;
 	top: 15%;
 	left: 10%;
 }
@@ -161,10 +161,10 @@ a:active  {
 	display: inline-block;
 	margin-left: 110%;
 	margin-top: -90%;
-	height: 65%;
+	height: 55%;
 	object-fit: cover;
 	z-index: 20;
-	opacity: .75;
+	opacity: .80;
 	/*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	/*filter: grayscale(100%);
 	transition:1.25s;
