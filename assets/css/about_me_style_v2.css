@@ -169,8 +169,8 @@ a:active  {
 .cover_img_scaled{
 	display: inline-block;
 	margin-left: 110%;
-	margin-top: -82%;
-	height: 300px;
+	margin-top: -77%;
+	height: 280px;
 	object-fit: cover;
 	z-index: 20;
 	opacity: .85;
